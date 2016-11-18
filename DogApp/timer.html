@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stopwatch</title>
+	<link rel="stylesheet" type="text/css" href="timer.css">
+	<script src="timer.js"></script>
+	
+</head>
+<body onload="show();">
+    <img src="http://beniciadogwalking.com/wp-content/uploads/2015/05/Dog_Walking.jpg" />
+	<div class="time"><span id="time"></span></div>
+	<div class="alignbuttons">
+	    <div class='buttons1'>
+	        <input type="button" value="START" onclick="start();">
+	        </div>
+	    <div class="buttons2">
+	        <input type="button" value="STOP" onclick="stop();">
+	    </div>
+	
+	    <div class="reset">
+	        <input type="button" value="RESET" onclick="reset()">
+	    </div>
+	
+	</div>
+
+	    <div id='steps'></div>
+	    
+	<!--<div>
+	<p id="1">Monday: </p>
+	<p id="2">Tuesday: </p>
+	<p id="3">Wendesday: </p>
+	<p id="4">Thursday: </p>
+	<p id="5">Friday: </p>
+	<p id="6">Saturday: </p>
+	<p id="7">Sunday: </p>
+	</div>-->
+</body>
+</html>
